@@ -80,23 +80,3 @@ Lần chạy đầu tiên Maven cần Internet để tải thư viện JDBC và 
 3. Mở **Mượn / trả sách**, chọn độc giả và sách, đặt hạn trả, tạo phiếu. Kiểm tra số lượng còn của sách đã giảm.
 4. Chọn phiếu vừa tạo và xác nhận trả. Kiểm tra ngày trả/trạng thái và số lượng sách đã tăng lại.
 5. Thử tạo phiếu với sách hết hàng hoặc hạn trả ở quá khứ để kiểm tra validation.
-
-## 8. Đưa mã nguồn lên GitHub
-
-1. Tạo repository mới trên GitHub, ví dụ `quan-ly-thu-vien-java`.
-2. Mở terminal trong thư mục dự án và chạy:
-
-```bash
-git init
-git add .
-git commit -m "Initial project - Library Management System"
-git branch -M main
-git remote add origin https://github.com/USERNAME/quan-ly-thu-vien-java.git
-git push -u origin main
-```
-
-3. Thay `USERNAME` bằng tên tài khoản GitHub của bạn.
-4. Mở repository trên GitHub, kiểm tra đã có `src`, `sql`, `pom.xml`, `README.md` và `BAO_CAO_DO_AN.md`.
-5. Sao chép đường dẫn repository và gửi lên hệ thống của giảng viên.
-
-Không đẩy lên GitHub thư mục `target`, file cấu hình chứa mật khẩu, hoặc thông tin đăng nhập SQL Server cá nhân.
